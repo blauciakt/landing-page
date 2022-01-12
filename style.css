@@ -88,7 +88,7 @@ body {
     border-radius: 20px;
 }
 
-.gallery {
+.gallerym .cta {
     background-color:#f9faf8;
 }
 
@@ -125,3 +125,83 @@ body {
     border-radius: 100px;
 }
 
+.quote {
+    background-color: #e5e7eb;
+
+}
+
+.quote .container {
+    width: 60vw;
+    margin-bottom: 32px;
+}
+
+.quote .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote .signature {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: end;
+}
+
+.cta {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta .container {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;   
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 20px;
+}
+
+.cta .cta-title {
+    font-size: 20px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.cta .cta-desc {
+    color: #f9faf8;
+}
+
+.cta .cta-button {
+    height: 48px;
+    width: 20%;
+    background-color: transparent;
+    border: 2px solid black;
+    border-color: #f9faf8;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+}
+
+.footer .container {
+    text-align: center;
+    padding: 32px;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #e5e7eb;;
+}
